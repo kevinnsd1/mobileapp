@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ungu"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="800dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/triangle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:width="300dp"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="loginbutton"
+        android:id="@+id/btn_1"
+        tools:ignore="OnClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:width="300dp"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="registerbutton"
+        android:textSize="20sp"
+        android:id="@+id/btn_2"
+        tools:ignore="OnClick"/>
+
+
+</RelativeLayout>

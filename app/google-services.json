@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "675899242473",
+    "firebase_url": "https://triangleupin-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "triangleupin",
+    "storage_bucket": "triangleupin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675899242473:android:b50ce9ca38d8ec326b7d78",
+        "android_client_info": {
+          "package_name": "com.example.projekuts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD20d7jRFvYk6Jg8lkIQtGkC_KWABMGS6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

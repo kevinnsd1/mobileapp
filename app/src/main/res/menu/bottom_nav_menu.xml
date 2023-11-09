@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/konversi"
+        android:icon="@drawable/konversi"
+        android:title="Konversi" /> <!-- Mengatur ukuran teks menjadi 12sp -->
+
+    <item
+        android:id="@+id/kalkulator"
+        android:icon="@drawable/kalkulator"
+        android:title="Kalkulator" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/person"
+        android:title="Profile" />
+    <item
+        android:id="@+id/suhu"
+        android:icon="@drawable/suhu"
+        android:title="Suhu" />
+
+    <item
+        android:id="@+id/bmi"
+        android:icon="@drawable/baseline_height_24"
+        android:title="bmi" />
+</menu>
